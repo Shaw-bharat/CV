@@ -1,0 +1,12 @@
+background-image: url(images/banner.png);
+  background-color: linear-gradient(rbga(4,9,30,0.7),rgba(4,9,30,0.7));
+
+  
+.nav-link a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: inline;
+    margin: auto;
+  }
